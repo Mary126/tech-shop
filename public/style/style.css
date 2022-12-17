@@ -1,0 +1,47 @@
+.body1 {
+    /* background-image: url(pic/bc4.jpg); */
+    background-attachment: fixed;
+    margin:0%;
+}
+.head{
+    /* background-image: url(pic/head.png); */
+    background-color: #CCCCCC;
+    width:100%;
+    position: fixed;
+    justify-content: center;
+    margin: 0px;
+    top: 0;
+    margin-bottom: 2px; 
+}
+.head h1{
+    display: block;
+    color:#1C4059;
+    font-size: 250%;
+    text-align: center;
+    width:60%;
+    margin: 0% 20%;
+    user-select: none;
+    cursor:default;
+}
+.menu {
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+.menu div {
+    margin: 0% 2%;
+    width:20%;
+    display: inline-block;
+    border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    font: normal 17px Verdana;
+    color: #1C4059;
+    cursor: pointer;
+    user-select: none;
+    padding: 7px 3px;
+}
+.menu div:hover, menu div:active {
+    color: #1C4059;
+    background-color: white;
+}

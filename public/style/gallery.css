@@ -1,0 +1,94 @@
+.Naychniki{
+    background-image: url("../products/pr1.jpg")
+}
+.Iphone {
+    background-image: url("../products/pr2.jpg")
+}
+.IPad {
+    background-image: url("../products/pr3.jpg")
+}
+.Ipod {
+    background-image: url("../products/pr4.jpg")
+}
+.iWatch {
+    background-image: url("../products/pr5.jpg")
+}
+.Notebook {
+    background-image: url("../products/pr6.jpg")
+}
+.Fleska {
+    background-image: url("../products/pr7.jpg")
+}
+.JD {
+    background-image: url("../products/pr8.jpg")
+}
+.vr {
+    background-image: url("../products/pr10.jpg")
+}
+.PS4{
+    background-image: url("../products/pr9.jpg")
+}
+.xbox {
+    background-image: url("../products/pr11.jpg")
+}
+.mb {
+    background-image: url("../products/pr12.jpg")
+}
+.banana {
+    background-image: url("../products/pr13.jpg")
+}
+.ft {
+    background-image: url("../products/pr14.jpg")
+}
+.zar {
+    background-image: url("../products/pr15.jpg")
+}
+.refridj {
+    background-image: url("../products/pr16.jpg")
+}
+
+.productitem{
+    display: inline-block;
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    margin: 30px;
+    padding: 2px;
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.productlayer:after {
+    display: inline-block;
+    content: "";
+    width: 100%;
+}
+.productlayer{
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 80%;
+    height: 100%;
+    margin: 5% auto;
+    text-align: center;
+}
+.prodimage {
+    text-align: center;
+}
+.prodheader {
+    font: normal 20px Verdana;
+    margin: 10px;
+    color: #1C4059;
+    user-select: none;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.prodbutton {
+    border: none;
+    cursor: pointer;
+    padding-right: 30px;
+    user-select: none;
+    background: url(images/cart.png) no-repeat right center;
+    color: #666;
+}
+.prodbutton:hover {
+    text-decoration: underline;
+    user-select: none;
+}

@@ -1,0 +1,19 @@
+.presentation {
+    height: 900px;
+    width: 100%;
+    margin: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 40px;
+    transition: background-image 1s ease-out 2s;
+}
+.pr1 {
+    background-image: url(../main/pic/presentation1.jpg);
+}
+.pr2 {
+    background-image: url(../main/pic/presentation2.jpg);
+}
+.pr3 {
+    background-image: url(../main/pic/presentation3.jpg);
+}
